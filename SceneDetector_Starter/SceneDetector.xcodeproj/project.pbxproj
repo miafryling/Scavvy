@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFD2AD4E202F42F2003DB7BF /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AFD2AD4D202F42F2003DB7BF /* MobileNet.mlmodel */; };
+		AFD2AD50202F560D003DB7BF /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2AD4F202F560D003DB7BF /* CameraController.swift */; };
+		AFD2AD52202F5C97003DB7BF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2AD51202F5C97003DB7BF /* ViewController2.swift */; };
 		CD8A65A11EE7EC0700942922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A65A01EE7EC0700942922 /* AppDelegate.swift */; };
 		CD8A65A31EE7EC0700942922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8A65A21EE7EC0700942922 /* ViewController.swift */; };
 		CD8A65A61EE7EC0700942922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65A41EE7EC0700942922 /* Main.storyboard */; };
 		CD8A65A81EE7EC0700942922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65A71EE7EC0700942922 /* Assets.xcassets */; };
 		CD8A65AB1EE7EC0700942922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65A91EE7EC0700942922 /* LaunchScreen.storyboard */; };
 		CD8A65B61EE7EE3B00942922 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8A65B51EE7ECF600942922 /* Default-568h@2x.png */; };
-		E1E6E9C3202E9514005FB38E /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E1E6E9C2202E9514005FB38E /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFD2AD4D202F42F2003DB7BF /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = ../../../../../../Downloads/MobileNet.mlmodel; sourceTree = "<group>"; };
+		AFD2AD4F202F560D003DB7BF /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		AFD2AD51202F5C97003DB7BF /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		CD8A659D1EE7EC0700942922 /* SceneDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8A65A01EE7EC0700942922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD8A65A21EE7EC0700942922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +30,6 @@
 		CD8A65AA1EE7EC0700942922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8A65AC1EE7EC0700942922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD8A65B51EE7ECF600942922 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E1E6E9C2202E9514005FB38E /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = ../../../../Downloads/MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			children = (
 				CD8A65A01EE7EC0700942922 /* AppDelegate.swift */,
 				CD8A65A21EE7EC0700942922 /* ViewController.swift */,
+				AFD2AD51202F5C97003DB7BF /* ViewController2.swift */,
+				AFD2AD4F202F560D003DB7BF /* CameraController.swift */,
 				CD8A65AC1EE7EC0700942922 /* Info.plist */,
 				CD8A65B21EE7EC4100942922 /* Resources */,
 			);
@@ -71,7 +77,7 @@
 		CD8A65B21EE7EC4100942922 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E1E6E9C2202E9514005FB38E /* MobileNet.mlmodel */,
+				AFD2AD4D202F42F2003DB7BF /* MobileNet.mlmodel */,
 				CD8A65A41EE7EC0700942922 /* Main.storyboard */,
 				CD8A65A71EE7EC0700942922 /* Assets.xcassets */,
 				CD8A65B51EE7ECF600942922 /* Default-568h@2x.png */,
@@ -153,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD2AD52202F5C97003DB7BF /* ViewController2.swift in Sources */,
 				CD8A65A31EE7EC0700942922 /* ViewController.swift in Sources */,
+				AFD2AD50202F560D003DB7BF /* CameraController.swift in Sources */,
 				CD8A65A11EE7EC0700942922 /* AppDelegate.swift in Sources */,
-				E1E6E9C3202E9514005FB38E /* MobileNet.mlmodel in Sources */,
+				AFD2AD4E202F42F2003DB7BF /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
